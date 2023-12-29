@@ -1,231 +1,156 @@
-<div class="w-full"> <!-- bg-ds_blue -->
-        
-        <div class="sm:p-6 p-4">  <!-- bg-yellow-100 -->
-            
-        
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
 
+        .projects-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
 
- 
+        .project {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            overflow: hidden;
+        }
 
-<div>
+        img {
+            width: 100%;
+            height: 200px; /* Set a fixed height to make it square */
+            object-fit: cover; /* Maintain aspect ratio and cover the container */
+            border-radius: 5px 5px 0 0; /* Add border-radius for a slightly rounded top */
+        }
 
-<!-- Projects -->
+        h2, p {
+            color: #333;
+            margin-left: 10px; /* Add left margin */
+        }
 
+        strong {
+            font-weight: bold;
+            color: #3498db; /* Use an appropriate color */
+            font-size: 90%; /* Adjust the size as needed */
+            display: block;
+            margin-left: 10px; /* Add left margin */
+            margin-bottom: 8px;
+        }
 
-<p class="flex text-xs text-gray-600 pt-0 pb-0 font-mono">Projects</p>
+        .skills-container {
+            margin-left: 10px; /* Add left margin */
+            margin-top: 8px; /* Add top margin for separation */
+        }
 
-<div class="grid mt-2 lg:grid-cols-2 gap-6">
-    
-    
-    <div class="">
-        <a href="/juliejlai/projects/0" class="group">
-        <img class="w-full mb-2 rounded-xl border border-gray-200 shadow-sm shadow-gray-50" src="/static/profile_pics/pr0_314F2FF8E4163715566E.png" alt="Project photo">
-        <p class="text-md text-gray-900 mb-1 mt-2 font-semibold group-hover:underline group-hover:underline-offset-4">Spotify Recommender and Visualizer</p>
+        .skills-text {
+            display: inline-block;
+            margin-right: 5px; /* Add right margin between text */
+            border-radius: 20px; /* Make corners round */
+            background-color: #EDF3FF; /* Use light blue background */
+            color: #0011FF; /* Use dark blue font color */
+            padding: 5px 10px; /* Adjust padding as needed */
+            font-size: 12px; /* Adjust font size as needed */
+            box-shadow: none; /* Remove shadow effect */
+            font-weight: bold; /* Make text bold */
+        }
 
-        
-        <div>
-            
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                Machine Learning
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Cluster Models
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Data Visualization
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 JavaScript
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 HTML
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 CSS
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Herokuapp
-            </button>
-            
+        a {
+            text-decoration: none;
+            color: #0011FF;
+            display: inline-block; /* Align the link with other text */
+            margin-left: 10px; /* Add left margin */
+            margin-top: 8px; /* Add top margin for separation */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<h1> Rutwik's Dashboard Portfolio</h1>
+<h4>Click on Read More to check out the Dashboards</h4>
+<div class="projects-container">
+    <div class="project">
+        <img src="https://gigacars.com/_next/static/assets/car-loading-fc28239636ede68792f7de5736d7a5e0.jpg" alt="Project Image">
+        <h2>CarDekho Used Car Guide</h2>
+      
+        <div class="skills-container">
+            <span class="skills-text">Power BI</span>
+            <span class="skills-text">Data Minning</span>
+            <span class="skills-text">Market Research</span>
         </div>
-        
 
+        <p>This project aims to streamline the car-buying process, providing valuable insights and enhancing the overall user experience in navigating the vast landscape of used car offerings on CarDekho.</p><p>The Power BI dashboard leverages real-world data sourced from the CarDekho website, offering a practical solution for users seeking guidance in the used car market.
+</p>
         
-        <p class="text-sm text-gray-600 mb-1 mt-2">By generating global song recommendations towards highlighting global talent and multilingual songs, our project aims to create a more diverse experience to music listeners while also providing a fun user experience by generating live, audio-responsive artistic visuals.</p>
-        
-    
-        
-        <div class="flex items-center mt-1 text-sm border-ds_blue border-0 text-ds_blue py-0.5 pr-1">
-            Read
-          more 
-           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class=" w-3 h-3 ml-0.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
-            </svg>
-                      </div>
-                      
-        </a>
+        <a href="#">Dashboard ></a>
     </div>
     
-    
-    
-    <div class="">
-        <a href="/juliejlai/projects/1" class="group">
-        <img class="w-full mb-2 rounded-xl border border-gray-200 shadow-sm shadow-gray-50" src="/static/profile_pics/pr1_164DF23A24DFD3201C82.png" alt="Project photo">
-        <p class="text-md text-gray-900 mb-1 mt-2 font-semibold group-hover:underline group-hover:underline-offset-4">Formality Neural Machine Translation</p>
-
-        
-        <div>
-            
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                Natural Language Processing
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Formality Translation
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Tensorflow
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 LSTM
-            </button>
-            
+    <div class="project">
+        <img src="https://medicaldialogues.in/h-upload/2022/06/30/179675-gst1.jpg" alt="Project Image">
+        <h2>Impact of GST on Indian Economy</h2>
+      
+        <div class="skills-container">
+            <span class="skills-text">Tableau</span>
+            <span class="skills-text">Report Writing</span>
+            <span class="skills-text">Data Visualization</span>
+            <span class="skills-text">Data Insights</span>
+            <span class="skills-text">Paper Research</span>
         </div>
-        
 
+        <p>The project unveils GST's core concepts and its impact on the Indian economy over the first 5 years, at
+            both state and Union levels. Utilized Tableau visuals for clear representation of intricate research data, enhancing accessibility.</p>
         
-        <p class="text-sm text-gray-600 mb-1 mt-2">Our project aims to use and compare Neural Machine Translation models for translation of informal English sentences to formal English sentences. Initially, we imagined this functionality to be useful for new English speakers who are trying to navigate the way native English speakers speak...</p>
-        
+        <a href="#">Dashboard Embedded Report ></a>
+    </div>
+
+    <!-- Add similar blocks for other projects -->
     
+    <div class="project">
+        <img src="https://www.cleartouch.in/wp-content/uploads/2023/02/Customer-Segmentation.png" alt="Project Image">
+        <h2>Customer Segmentation</h2>
+      
+        <div class="skills-container">
+            <span class="skills-text">Power BI</span>
+            <span class="skills-text">Retail Sales</span>
+            <span class="skills-text">Real World Data</span>
+        </div>
+
+        <p>This Power BI dashboard is designed to harness POS machine data, providing a powerful tool for customer segmentation. By analyzing transactional data, this project aims to uncover distinct customer segments based on purchasing behavior. With a focus on simplicity and actionable insights, this project enhances decision-making by helping businesses understand and target their diverse customer base more effectively.</p>
         
-        <div class="flex items-center mt-1 text-sm border-ds_blue border-0 text-ds_blue py-0.5 pr-1">
-            Read
-          more 
-           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class=" w-3 h-3 ml-0.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
-            </svg>
-                      </div>
-                      
-        </a>
+        <a href="#">Dashboard ></a>
     </div>
     
-    
-    
-    <div class="">
-        <a href="/juliejlai/projects/2" class="group">
-        <img class="w-full mb-2 rounded-xl border border-gray-200 shadow-sm shadow-gray-50" src="/static/profile_pics/pr2_FE711FEA0DFF9F16BA92.png" alt="Project photo">
-        <p class="text-md text-gray-900 mb-1 mt-2 font-semibold group-hover:underline group-hover:underline-offset-4">The Effect of Greyscale on Screentime</p>
-
-        
-        <div>
-            
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                R
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 dplyr
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Hypothesis Testing
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 t-test
-            </button>
+    <div class="project">
+        <img src="https://www.vanguardngr.com/wp-content/uploads/2020/02/Premier-League-e1581018804263.jpg" alt="Project Image">
+        <h2>English Premier Dashboard</h2>
+      
+        <div class="skills-container">
+            <span class="skills-text">Tableau</span>
+            <span class="skills-text">Data Visualization</span>
+            <span class="skills-text">Dashboard</span>
             
         </div>
-        
 
+        <p>This Tableau dashboard utilizes the rich dataset from the English Premier League (EPL) matches, presenting a comprehensive tool for summarizing and analyzing team performances across seasons. The focus is on simplicity and clarity, ensuring users can easily grasp and interpret the intricate details of each team's journey in the league.</p>
         
-        <p class="text-sm text-gray-600 mb-1 mt-2">A high amount of screen time and phone use can have a serious effect on mental health and physical well being. To tackle this issue, our project explores the use of removing colors from mobile phones to reduce overall screen time. This project’s results show that even with a specific treatment...</p>
-        
-    
-        
-        <div class="flex items-center mt-1 text-sm border-ds_blue border-0 text-ds_blue py-0.5 pr-1">
-            Read
-          more 
-           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class=" w-3 h-3 ml-0.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
-            </svg>
-                      </div>
-                      
-        </a>
-    </div>
-    
-    
-    
-    <div class="">
-        <a href="/juliejlai/projects/3" class="group">
-        <img class="w-full mb-2 rounded-xl border border-gray-200 shadow-sm shadow-gray-50" src="/static/profile_pics/pr3_292783CB9B6772E84A42.png" alt="Project photo">
-        <p class="text-md text-gray-900 mb-1 mt-2 font-semibold group-hover:underline group-hover:underline-offset-4">Exploring Music Through Data Visualization</p>
-
-        
-        <div>
-            
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                Data Visualization
-            </button>
-            
-            <button class="px-2 py-0.5 rounded-full text-xs font-sm bg-ds_blue_light text-ds_blue mr-1 mb-1">
-                 Tableau
-            </button>
-            
-        </div>
-        
-
-        
-        <p class="text-sm text-gray-600 mb-1 mt-2">In this project, we hope to explore the different qualities of music throughout history. Some insights that can be gained from the information presented on this page include predicting the next big trends in music, learning musical preferences in different parts of the world, and learning about...</p>
-        
-    
-        
-        <div class="flex items-center mt-1 text-sm border-ds_blue border-0 text-ds_blue py-0.5 pr-1">
-            Read
-          more 
-           
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20" stroke-width="1.5" stroke="currentColor" class=" w-3 h-3 ml-0.5">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
-            </svg>
-                      </div>
-                      
-        </a>
+        <a href="#https://rutwik1000.github.io/dashboards.github.io/#tableau">Dashboard ></a>
     </div>
     
     
 </div>
 
-<!-- End projects -->
-
-
-<!-- Experience -->
-
-
-<!-- End experience -->
-
-
-<!-- Education -->
-
-<!-- End education -->
- 
-</div>
-
-
-        </div>
-
-      </div>
+</body>
+</html>
